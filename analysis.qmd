@@ -1,0 +1,14 @@
+---
+title: "IMDb Rankings"
+author: "Grady Woodard"
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(rvest)
+library(httr2)
+library(purrr)
+```
